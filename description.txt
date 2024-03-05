@@ -1,0 +1,28 @@
+O(1) - Constant Time Complexity:
+An algorithm is said to have constant time complexity if the execution time is the same for all inputs.
+
+O(log n) - Logarithmic Time Complexity:
+Common in algorithms that divide the problem into smaller subproblems in each step, like binary search.
+
+O(n) - Linear Time Complexity:
+The execution time of the algorithm is directly proportional to the size of the input data.
+
+O(n log n) - Linearithmic Time Complexity:
+Common in algorithms that divide the problem and solve each part independently, such as merge sort or quicksort.
+
+O(n^2) - Quadratic Time Complexity:
+Common in algorithms with nested iterations over the input data.
+
+O(2^n) - Exponential Time Complexity:
+Common in algorithms that solve a problem by generating all possible subsets.
+
+O(n!) - Factorial Time Complexity:
+Common in algorithms that generate all possible permutations.
+
+
+Here are some general rules:
+Nested loops: If you have nested loops, multiply their complexities.
+Sequential statements: If you have sequential statements, add their complexities.
+Choose the dominant term: If you have multiple terms in a formula, choose the one that grows the fastest as the input size increases.
+
+ 
